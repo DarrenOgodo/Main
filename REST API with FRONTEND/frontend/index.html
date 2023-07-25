@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>TUTOR-STUDENT FORM</h1></header>
+    <form id="student-form">
+        <h2>৹STUDENT</h2>
+        <label for="stud_id">Student ID: <input type="number" id="stud_id" name="stud_id" required></label>
+        <label for="stud_title">Title: <select name="stud_title" id="stud_title">
+            <option value=""></option>
+            <option value="Mx">Mx</option>
+            <option value="Ms">Ms</option>
+            <option value="Mr">Mr</option>
+            <option value="Mrs">Mrs</option>
+            <option value="Miss">Miss</option>
+            <option value="Other(Specify)">Other(Specify)</option>
+        </select></label>
+        <br><br>
+        <label for="stud_other">Other: <input type="text" id="stud_other" name="stud_other"></label>
+        <label for="stud_firstname">First Name: <input type="text" id="stud_firstname" name="stud_firstname" required></label>
+        <br><br>
+        <label for="stud_lastname">Last Name: <input type="text" id="stud_lastname" name="stud_lastname" required></label>
+        <label for="stud_dob">Date of Birth: <input type="date" id="stud_dob" name="stud_dob" required></label>
+        <br><br>
+        <label for="stud_guardian">Parent/Guardian: <input type="text" id="stud_guardian" name="stud_guardian"></label>
+        <label for="stud_permission">Permission: <select name="stud_permission" id="stud_permission">
+            <option value=""></option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select></label>
+        <br><br>
+        <label for="stud_subject">Subject: <input type="text" id="stud_subject" name="stud_subject"></label>
+        <label for="stud_mobile">Mobile Number: <input type="text" id="stud_mobile" name="stud_mobile" required></label>
+        <br><br>
+        <label for="stud_email">E-mail: <input type="text" id="stud_email" name="stud_email" required></label>
+        <br><br>
+        <label for="stud_line1">Address line1: <input type="text" id="stud_line1" name="stud_line1" required></label>
+        <label for="stud_line2">Line 2: <input type="text" id="stud_line2" name="stud_line2"></label>
+        <br><br>
+        <label for="stud_town">Town: <input type="text" id="stud_town" name="stud_town" required></label>
+        <label for="stud_county">County: <input type="text" id="stud_county" name="stud_county" required></label>
+        <br><br>
+        <label for="stud_eircode">EIRCODE: <input type="text" id="stud_eircode" name="stud_eircode"></label>
+        <br><br>
+        <button type="submit" id="stud_insert">INSERT</button>
+        <button id="stud_search">SEARCH</button>
+        <button>UPDATE</button>
+        <button id="stud_delete">DELETE</button>
+        <p>N.B: For search,update and delete, you only need to supply the ID</p>
+    </form>
+
+
+    <form id="tutor-form">
+        <h2>৹TUTOR</h2>
+        <label for="tut_id">Tutor ID: <input type="number" id="tut_id" name="tut_id" required></label>
+        <label for="tut_title">Title: <select name="tut_title" id="tut_title">
+            <option value=""></option>
+            <option value="Mx">Mx</option>
+            <option value="Ms">Ms</option>
+            <option value="Mr">Mr</option>
+            <option value="Mrs">Mrs</option>
+            <option value="Miss">Miss</option>
+            <option value="Other(Specify)">Other(Specify)</option>
+        </select></label>
+        <br><br>
+        <label for="tut_other">Other: <input type="text" id="tut_other" name="tut_other"></label>
+        <label for="tut_firstname">First Name: <input type="text" id="tut_firstname" name="tut_firstname" required></label>
+        <br><br>
+        <label for="tut_lastname">Last Name: <input type="text" id="tut_lastname" name="tut_lastname" required></label>
+        <label for="tut_mobile">Mobile Number: <input type="text" id="tut_mobile" name="tut_mobile" required></label>
+        <br><br>
+        <label for="tut_email">E-mail: <input type="text" id="tut_email" name="tut_email" required></label>
+        <br><br>
+        <label for="tut_line1">Address line1: <input type="text" id="tut_line1" name="tut_line1" required></label>
+        <label for="tut_line2">Line 2: <input type="text" id="tut_line2" name="tut_line2"></label>
+        <br><br>
+        <label for="tut_town">Town: <input type="text" id="tut_town" name="tut_town" required></label>
+        <label for="tut_county">County: <input type="text" id="tut_county" name="tut_county" required></label>
+        <br><br>
+        <label for="tut_eircode">EIRCODE: <input type="text" id="tut_eircode" name="tut_eircode"></label>
+        <br><br>
+        <button type="submit" id="tut_insert">INSERT</button>
+        <button id="tut_search">SEARCH</button>
+        <button>UPDATE</button>
+        <button id="tut_delete">DELETE</button>
+        <p>N.B: For search,update and delete, you only need to supply the ID</p>
+    </form>
+
+
+    <form id="tutorial-form">
+        <h2>৹TUTORIAL</h2>
+        <label for="tutu_id">Tutorial ID: <input type="number" id="tutu_id" name="tutu_id" required></label>
+        <label for="tutu_date">Date: <input type="date" id="tutu_date" name="tutu_date" required></label>
+        <br><br>  
+        <label for="tutu_time">Time: <input type="text" id="tutu_time" name="tutu_time" required></label>
+        <label for="tutu_students">Students: <input type="number" id="tutu_students" name="tutu_students" min="1" max="5" required></label>
+        <br><br>
+        <label for="tutu_tutor">Tutor: <input type="number" id="tutu_tutor" name="tutu_tutor" required></label>
+        <label for="tutu_fee">Fee: <input type="number" id="tutu_fee" name="tutu_fee" required></label>
+        <br><br>
+        <label for="tutu_num">Tutorial Number: <input type="number" id="tutu_num" name="tutu_num" required></label>
+        <label for="tutu_attendance">Attendance: <select id="tutu_attendance" name="tutu_attendance" required>
+            <option value=""></option>
+            <option value="Attended">Attended</option>
+            <option value="Cancelled">Cancelled</option>
+            <option value="No show">No show</option>
+          </select>
+        </label>
+        <br><br>
+        <label for="tutu_subject">Subject: <select id="tutu_subject" name="tutu_subject" required>
+            <option value=""></option>
+            <option value="English">English</option>
+            <option value="Irish">Irish</option>
+            <option value="Maths">Maths</option>
+            <option value="Biology">Biology</option>
+            <option value="Chemistry">Chemistry</option>
+            <option value="Physics">Physics</option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="Other(Specify)">Other (Specify)</option>
+          </select>
+        </label>
+        <label for="tutu_other">Other: <input type="text" id="tutu_other" name="tutu_other"></label>
+        <br><br>
+        <label for="tutu_notes">Notes: <textarea id="tutu_notes" name="tutu_notes" required></textarea></label>
+        <br><br>
+        <button type="submit" id="tutu_insert">INSERT</button>
+        <button id="tutu_search">SEARCH</button>
+        <button>UPDATE</button>
+        <button id="tutu_delete">DELETE</button>
+        <p>N.B: For search,update and delete, you only need to supply the ID</p>
+      </form>
+      
+    <script src="studentScript.js"></script>
+    <script src="tutorScript.js"></script>
+    <script src="tutorialScript.js"></script>
+</body>
+</html>

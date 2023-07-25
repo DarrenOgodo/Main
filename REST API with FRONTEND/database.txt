@@ -1,0 +1,62 @@
+---------------------------------------------------------STUDENTS--------------------------------------------------------
+{"_id":{"$oid":"646e3bca59cde4ce36bba6cf"},"id":{"$numberInt":"1"},"title":"Ms","other":"","firstname":"Genny","lastname":"tahls","dob":{"$date":{"$numberLong":"-30270326400000"}},"guardian":"","permission":"yes","subject":"Computer Science","mobile":"089-1234567","email":"genny@email.com","homeAddress":{"line1":"69 suggon deez street","line2":"","town":"townsville","county":"countysville","eircode":"eir1234"},"created":{"$date":{"$numberLong":"1684945866659"}}}
+
+{"_id":{"$oid":"646ebf095c2c26f68b663056"},"id":{"$numberInt":"2"},"title":"Mr","other":"","firstname":"Darren","lastname":"Ogodo","dob":{"$date":{"$numberLong":"1098144000000"}},"guardian":"","permission":"yes","subject":"Computer Science","mobile":"029893002-1","email":"darren@email.com","homeAddress":{"line1":"17 street","line2":"","town":"town","county":"county","eircode":"eir2004"},"created":{"$date":{"$numberLong":"1684979465481"}}}
+
+{"_id":{"$oid":"646e65875bba8906719a1a6a"},"id":{"$numberInt":"3"},"title":"Mr","other":"","firstname":"Deez","lastname":"Nutz","dob":{"$date":{"$numberLong":"-30270326400000"}},"guardian":"","permission":"yes","subject":"Science","mobile":"0987654","email":"deez@nutz.com","homeAddress":{"line1":"12 street","line2":"","town":"towny","county":"countyey","eircode":"eir46372"},"created":{"$date":{"$numberLong":"1684956551957"}}}
+
+{"_id":{"$oid":"646e74166a8d380c28084a50"},"id":{"$numberInt":"4"},"title":"Mrs","other":"","firstname":"Jenna","lastname":"Marbles","dob":{"$date":{"$numberLong":"540691200000"}},"guardian":"","permission":"yes","subject":"Science","mobile":"0887766552","email":"jenna@mail.com","homeAddress":{"line1":"187 street","line2":"","town":"town","county":"county","eircode":"eir283"},"created":{"$date":{"$numberLong":"1684960278671"}}}
+
+{"_id":{"$oid":"646e85e6392d9101e39b723c"},"id":{"$numberInt":"5"},"title":"Mr","other":"","firstname":"Ste","lastname":"Ven","dob":{"$date":{"$numberLong":"1299369600000"}},"guardian":"","permission":"yes","subject":"Arts","mobile":"098665577","email":"ste@ven.com","homeAddress":{"line1":"199 street","line2":"","town":"town","county":"county","eircode":"eir213"},"created":{"$date":{"$numberLong":"1684964838699"}}}
+
+{"_id":{"$oid":"646ea7a734dbd02ff5c166fa"},"id":{"$numberInt":"6"},"title":"Other(Specify)","other":"Sir","firstname":"Bartholemew","lastname":"Montgomery","dob":{"$date":{"$numberLong":"1683158400000"}},"guardian":"","permission":"yes","subject":"Business","mobile":"0921138485","email":"barty@email.com","homeAddress":{"line1":"123 non povos street","line2":"","town":"town","county":"county","eircode":"eir213"},"created":{"$date":{"$numberLong":"1684973479567"}}}
+
+{"_id":{"$oid":"646ea8ef34dbd02ff5c16700"},"id":{"$numberInt":"7"},"title":"Mr","other":"","firstname":"ninja","lastname":"warri","dob":{"$date":{"$numberLong":"1683072000000"}},"guardian":"","permission":"no","subject":"Business","mobile":"0899480791","email":"ninja@gmail.com","homeAddress":{"line1":"131 Kylemore Road","line2":"","town":"Dublin 12","county":"Co. Dublin","eircode":""},"created":{"$date":{"$numberLong":"1684973807177"}}}
+
+{"_id":{"$oid":"646ea9af34dbd02ff5c16702"},"id":{"$numberInt":"8"},"title":"Mx","other":"","firstname":"linda","lastname":"ikeji","dob":{"$date":{"$numberLong":"1685404800000"}},"guardian":"","permission":"yes","subject":"","mobile":"665311","email":"linda@mail.com","homeAddress":{"line1":"109 street","line2":"","town":"town","county":"county","eircode":"eir112"},"created":{"$date":{"$numberLong":"1684973999132"}}}
+
+{"_id":{"$oid":"646eab2e34dbd02ff5c16705"},"id":{"$numberInt":"9"},"title":"Mr","other":"","firstname":"Devin","lastname":"Booker","dob":{"$date":{"$numberLong":"1682899200000"}},"guardian":"Luka Doncic","permission":"no","subject":"Ball","mobile":"0989988888","email":"bozo@mail.com","homeAddress":{"line1":"929 street","line2":"","town":"town","county":"county","eircode":""},"created":{"$date":{"$numberLong":"1684974382464"}}}
+
+{"_id":{"$oid":"646eabc034dbd02ff5c16707"},"id":{"$numberInt":"10"},"title":"Mr","other":"","firstname":"meat","lastname":"rider","dob":{"$date":{"$numberLong":"1684713600000"}},"guardian":"","permission":"yes","subject":"Athletics","mobile":"0987897982","email":"meat@rider.com","homeAddress":{"line1":"124 street","line2":"","town":"town","county":"county","eircode":"eir419"},"created":{"$date":{"$numberLong":"1684974528448"}}}
+--------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------TUTORS------------------------------------------------------------
+{"_id":{"$oid":"646e7bc34cdcf4cc9952548b"},"id":{"$numberInt":"1"},"title":"Mr","other":"","firstname":"Dickson","lastname":"Yamouth","mobile":"098765456","email":"dickon@email.com","homeAddress":{"line1":"323 street","line2":"","town":"town","county":"county","eircode":"eir429"}}
+
+{"_id":{"$oid":"646e7c844cdcf4cc9952548d"},"id":{"$numberInt":"2"},"title":"Ms","other":"","firstname":"San","lastname":"Marino","mobile":"0924618904","email":"san@marino.com","homeAddress":{"line1":"711 street","line2":"san marino","town":"town","county":"county","eircode":"eir562"}}
+
+{"_id":{"$oid":"646e7cfa4cdcf4cc9952548f"},"id":{"$numberInt":"3"},"title":"Miss","other":"","firstname":"joana","lastname":"murphy","mobile":"0899480791","email":"maroogodo2017@gmail.com","homeAddress":{"line1":"131 Kylemore Road","line2":"","town":"Dublin 12","county":"Co. Dublin","eircode":""}}
+
+{"_id":{"$oid":"646e7dfb358f18ef4993af3d"},"id":{"$numberInt":"4"},"title":"Mr","other":"","firstname":"Pep","lastname":"Guadiola","mobile":"027482989","email":"pep@oilmoney.com","homeAddress":{"line1":"123 street","line2":"","town":"town","county":"county","eircode":"eir015"}}
+
+{"_id":{"$oid":"646e8639392d9101e39b723e"},"id":{"$numberInt":"5"},"title":"Ms","other":"","firstname":"first","lastname":"last","mobile":"1234567890","email":"first@email.com","homeAddress":{"line1":"1 street","line2":"","town":"town","county":"county","eircode":"eir001"}}
+
+{"_id":{"$oid":"646ea70b34dbd02ff5c166f8"},"id":{"$numberInt":"6"},"title":"Mr","other":"","firstname":"Nikola","lastname":"Jokic","mobile":"0985555788","email":"joker@email.com","homeAddress":{"line1":"10 street","line2":"","town":"town","county":"county","eircode":"eir213"}}
+--------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------TUTORIALS-----------------------------------------------------------
+{"_id":{"$oid":"646ea12f9e960cda1f05bd85"},"id":{"$numberInt":"1"},"date":{"$date":{"$numberLong":"1684713600000"}},"time":"9:30","students":{"$numberInt":"4"},"tutor":{"$numberInt":"3"},"fee":{"$numberInt":"15"},"tutorialNum":{"$numberInt":"2"},"attendance":"Attended","subject":"Chemistry","other":"","notes":"chemistry"}
+
+{"_id":{"$oid":"646ea2099e960cda1f05bd87"},"id":{"$numberInt":"2"},"date":{"$date":{"$numberLong":"1677024000000"}},"time":"9:30","students":{"$numberInt":"2"},"tutor":{"$numberInt":"5"},"fee":{"$numberInt":"90"},"tutorialNum":{"$numberInt":"1"},"attendance":"Cancelled","subject":"English","other":"","notes":"notes"}
+
+{"_id":{"$oid":"646ea2db7d1f8c6bc32c083e"},"id":{"$numberInt":"3"},"date":{"$date":{"$numberLong":"1684972800000"}},"time":"12:00","students":{"$numberInt":"2"},"tutor":{"$numberInt":"4"},"fee":{"$numberInt":"20"},"tutorialNum":{"$numberInt":"11"},"attendance":"Attended","subject":"Irish","other":"","notes":"notes"}
+
+{"_id":{"$oid":"646ea3956f3946cdb454b68a"},"id":{"$numberInt":"4"},"date":{"$date":{"$numberLong":"1684972800000"}},"time":"9:00","students":{"$numberInt":"4"},"tutor":{"$numberInt":"4"},"fee":{"$numberInt":"40"},"tutorialNum":{"$numberInt":"4"},"attendance":"Attended","subject":"Biology","other":"","notes":"notes"}
+
+{"_id":{"$oid":"646ea4a834dbd02ff5c166e7"},"id":{"$numberInt":"5"},"date":{"$date":{"$numberLong":"1685059200000"}},"time":"9:30","students":{"$numberInt":"2"},"tutor":{"$numberInt":"5"},"fee":{"$numberInt":"50"},"tutorialNum":{"$numberInt":"1"},"attendance":"Attended","subject":"Maths","other":"","notes":"kalos"}
+
+{"_id":{"$oid":"646ea4e034dbd02ff5c166e9"},"id":{"$numberInt":"6"},"date":{"$date":{"$numberLong":"1685232000000"}},"time":"9:30","students":{"$numberInt":"4"},"tutor":{"$numberInt":"3"},"fee":{"$numberInt":"44"},"tutorialNum":{"$numberInt":"20"},"attendance":"Attended","subject":"Irish","other":"","notes":"irish notes"}
+
+{"_id":{"$oid":"646ea51434dbd02ff5c166eb"},"id":{"$numberInt":"7"},"date":{"$date":{"$numberLong":"1684800000000"}},"time":"9:30","students":{"$numberInt":"2"},"tutor":{"$numberInt":"1"},"fee":{"$numberInt":"110"},"tutorialNum":{"$numberInt":"1"},"attendance":"Attended","subject":"Maths","other":"","notes":"notes"}
+
+{"_id":{"$oid":"646ea5b734dbd02ff5c166ee"},"id":{"$numberInt":"8"},"date":{"$date":{"$numberLong":"1684972800000"}},"time":"9:30","students":{"$numberInt":"1"},"tutor":{"$numberInt":"6"},"fee":{"$numberInt":"80"},"tutorialNum":{"$numberInt":"25"},"attendance":"Attended","subject":"Chemistry","other":"","notes":"notes"}
+
+{"_id":{"$oid":"646ea5ee34dbd02ff5c166f0"},"id":{"$numberInt":"9"},"date":{"$date":{"$numberLong":"1684972800000"}},"time":"9:30","students":{"$numberInt":"3"},"tutor":{"$numberInt":"6"},"fee":{"$numberInt":"35"},"tutorialNum":{"$numberInt":"11"},"attendance":"Attended","subject":"Biology","other":"","notes":"bio"}
+
+{"_id":{"$oid":"646ea64b34dbd02ff5c166f2"},"id":{"$numberInt":"10"},"date":{"$date":{"$numberLong":"1685404800000"}},"time":"19:30","students":{"$numberInt":"4"},"tutor":{"$numberInt":"6"},"fee":{"$numberInt":"15"},"tutorialNum":{"$numberInt":"6"},"attendance":"Attended","subject":"English","other":"","notes":"english"}
+
+{"_id":{"$oid":"646ea67e34dbd02ff5c166f4"},"id":{"$numberInt":"11"},"date":{"$date":{"$numberLong":"1685232000000"}},"time":"9:00","students":{"$numberInt":"5"},"tutor":{"$numberInt":"6"},"fee":{"$numberInt":"14"},"tutorialNum":{"$numberInt":"1"},"attendance":"Attended","subject":"English","other":"","notes":"english notes"}
+
+{"_id":{"$oid":"646ea6ca34dbd02ff5c166f6"},"id":{"$numberInt":"12"},"date":{"$date":{"$numberLong":"1685577600000"}},"time":"10:00","students":{"$numberInt":"5"},"tutor":{"$numberInt":"6"},"fee":{"$numberInt":"50"},"tutorialNum":{"$numberInt":"14"},"attendance":"Attended","subject":"Computer Science","other":"","notes":"fundamentals of object oriented programming"}
+--------------------------------------------------------------------------------------------------------------------------
