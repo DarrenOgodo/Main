@@ -1,9 +1,0 @@
--Install node package manager (npm)
--Install using npm:
-	-assert
-	-body-parser
-	-cors
-	-chance
-	-faker
-	-mongoose
-	
