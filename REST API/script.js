@@ -45,13 +45,3 @@ server.listen(port, (req,res)=>{
     console.log("Server listening on port: " + port);
 });
 
-
-
-/* -------Assignment 06 Requirements Part 6--------
--My database contains 3 collections (customers, items and orders)
--I took a normalized approach to my database
--Each document has an id i assigned (different to the one amongosdb generates)
--The customers collection contains the details of each customer including an id, personal info, home and shipping addresses
--The items collections contains details of items sold including manufacturer, model and price and an id as well
--The orders collection contains details of customers and a list of items they ordered. It contains the order id, customer id and full details of each item ordered
-*/
